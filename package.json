@@ -1,0 +1,24 @@
+{
+  "name": "burgerxing",
+  "version": "1.0.0",
+  "description": "Burger logger (homework)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BCButcher/burgerxing.git"
+  },
+  "author": "Brian C Butcher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BCButcher/burgerxing/issues"
+  },
+  "homepage": "https://github.com/BCButcher/burgerxing#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  }
+}
