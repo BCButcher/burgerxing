@@ -1,0 +1,14 @@
+#title {
+    font-family: 'Nothing You Could Do';
+    font-weight: bold;
+    font-size: 55px;
+    text-shadow: 50px;
+}
+
+#maincont {
+    padding-bottom: 50px!important;
+}
+
+#burger1 #burger2 #burger3 {
+    display: flex;
+}
