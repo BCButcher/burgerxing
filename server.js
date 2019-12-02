@@ -33,7 +33,7 @@ if (process.env.JAWSDB_URL) {
         host: "localhost",
         port: 3306,
         user: "root",
-        password: "password",
+        password: "123456789",
         database: "burger_db"
     });
 };
@@ -47,7 +47,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "./views/layouts/main.html"));
+    res.sendFile(path.join(__dirname, "public/main.html"));
 });
 
 app.post("/log", async function(req, res) {
