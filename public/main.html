@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/">
-    <link rel="stylesheet" href="../public/assets/css/style.css" <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Burger Logger</title>
 </head>
 
 <body>
-    <div class="bg-warning" id="warning">
+    <div class="jumbotron fluid-jumbotron" style="height: 300px; background-color: saddlebrown;">
         <div class="container d-flex justify-content-center py-5" id="maincont">
-            <p id=title style="font-family: nothing you could do; font-weight: bold; font-size: 25px">BurgerXing</p>
+            <p id=title style="font-family: nothing you could do; font-weight: bold; font-size: 55px; margin-top: -100px;">BurgerXing</p>
         </div>
         <div class="row">
             <div class="col-6 d-flex justify-content-center">
@@ -28,39 +28,37 @@
             <input type="text" class="form-control" placeholder="Enter burger here" aria-label="burger" aria-describedby="basic-addon1" id="input">
         </div>
         <div class="container d-flex justify-content-center">
-            <button class="btn btn-outline-secondary bg-light" type="button" id="log">Log</button>
+            <button class="btn btn-outline-secondary bg-dark" type="button" id="log">Log</button>
         </div>
     </div>
 
     <center>
         <div class="row align-items-center">
             <div class="col">
-                <input type="image" onclick="logJohnson()" id="burger1" src="https://www.seriouseats.com/recipes/images/2015/07/20150702-sous-vide-hamburger-anova-primary-1500x1125.jpg" alt="submit" style="width: 350px; height: 262.5px">
+                <h5 id=logJohnson ">Johnson Burger</h5>
+            </div>
+            <div class="col ">
+                <h5 id=logCarruthers">Carruthers Burger</h5>
             </div>
             <div class="col">
-                <input type="image" onclick="logTether()" id="burger2" src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/5/10/0/FNM_060117-Smashburger-Style-Burgers-Recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1494459418304.jpeg" alt="submit" style="width: 350px; height: 262.71px">
-            </div>
-            <div class="col">
-                <form>
-                    <input type="image" onclick="logPenguin()" id="burger3" src="https://www.buffalowildwings.com/globalassets/menuitems/bww_burger_buffalobleu.png?format=jpg&width=400&v=2" alt="submit" style="width: 350px; height: 196">
-                </form>
+                <h5 id=logPenguin ">Penguin Burger</h5>
             </div>
         </div>
-        <div class="row align-items-end">
-            <div class="col">
-                Johnson Burger
+        <div class="row align-items-center ">
+            <div class="col ">
+                    <img src="https://www.seriouseats.com/recipes/images/2015/07/20150702-sous-vide-hamburger-anova-primary-1500x1125.jpg " alt="submit " style="width: 350px; height: 262.5px ">
             </div>
-            <div class="col">
-                Tether Burger
+            <div class="col ">
+                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/5/10/0/FNM_060117-Smashburger-Style-Burgers-Recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1494459418304.jpeg " alt="submit " style="width: 350px; height: 262.71px ">
             </div>
-            <div class="col">
-                Penguin Burger
+            <div class="col ">
+                    <img src="https://www.buffalowildwings.com/globalassets/menuitems/bww_burger_buffalobleu.png?format=jpg&width=400&v=2 " alt="submit " style="width: 350px; height: 196 ">
             </div>
         </div>
     </center>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js "></script>
+    <script src="/assets/js/main.js "></script>
 </body>
 
 </html>
