@@ -32,7 +32,7 @@ async function devourBurger() {
     });
 
     $(this).remove();
-    $(`#${burgerID}`).appendTo("#eaten");
+    $(`#${burgerID}` + "has been devoured!").appendTo("#eaten");
 };
 
 function buildBurger(burger, status) {
